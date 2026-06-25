@@ -2,7 +2,7 @@
 
 # 🧠 Makemore: Neural Networks from Scratch
 
-*My personal journey through character-level language models, inspired by Andrej Karpathy's "Neural Networks: Zero to Hero" series.*
+*My personal journey through character-level language models, inspired by Andrej Karpathy*
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -10,24 +10,7 @@
 
 </div>
 
----
 
-## ⚡ My Learning Philosophy
-
-> *"I hear and I forget. I see and I remember. I do and I understand."*
-
-While this repository follows a structured tutorial, **I do not blindly copy-paste code.** This is an active learning environment. 
-
-My process for tackling this complex material:
-
-1. 🎧 **Watch & Grasp:** Understand the core mathematical intuition of the current section.
-2. ⏸️ **Pause & Code:** Stop the video and attempt to build the architecture or training loop entirely from scratch.
-3. 🐛 **Fail & Debug:** Struggle with tensor shapes, exploding gradients, and PyTorch idiosyncrasies.
-4. 💡 **Learn & Correct:** Compare my implementation with the actual solution, understand the gaps, and refine my mental model.
-
-This process means the code here isn't just a perfect transcription—it's a messy, authentic record of my personal understanding and growth in deep learning.
-
----
 
 ## 📂 Repository Structure
 
@@ -39,6 +22,7 @@ The project tracks my progression from simple models to more complex architectur
 | **[`Part 2`](./makemore%20part%202.ipynb)** | **MLP** | Implementing a Multi-Layer Perceptron following the Bengio et al. 2003 paper. |
 | **[`Part 3`](./makemore%20part%203.ipynb)** | **Internals** | Deep dive into activations, gradients, initialization, and Batch Normalization. |
 | **[`Part 4`](./makemore%20part%204.ipynb)** | **Backprop Ninja**| Advanced manual backpropagation and dealing with deeper network complexities. |
+| **[`Final`](./makemore%20final.ipynb)** | **Full MLP Backprop** | Completing the manual backpropagation journey with a full MLP implementation from scratch. |
 
 *Note: Models are trained on `names.txt`, a dataset of names used to generate new, unique character-level variations.*
 
@@ -53,13 +37,13 @@ The project tracks my progression from simple models to more complex architectur
 
 ---
 
-## 🎯 Next Steps & Goals
+## 🎯 Achievements & Next Steps
 
-- [ ] Build a solid, intuitive understanding of manual backpropagation without relying entirely on PyTorch's `autograd`.
-- [ ] Master PyTorch tensor operations, broadcasting semantics, and memory management.
+- [x] Build a solid, intuitive understanding of manual backpropagation without relying entirely on PyTorch's `autograd`.
+- [x] Master PyTorch tensor operations, broadcasting semantics, and memory management.
 - [ ] Progress towards modern architectures like GRUs, LSTMs, and eventually **Transformers**.
 
 <div align="center">
   <br>
-  <i>"What I cannot create, I do not understand." - Richard Feynman</i>
+  <i>"Throughout Heaven and Earth, I alone backpropagate manually" - Gojo Satoru (probably)</i>
 </div>
